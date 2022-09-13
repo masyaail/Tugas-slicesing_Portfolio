@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+
+}
+nav {
+  width: 100%;
+  display: flex;
+  padding: 3px 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FAEBD7;
+  box-shadow: 1px 1px 50px gainsboro;
+  position: fixed;
+  z-index: 1;
+}
+img{
+  width: 50px;
+  height: 50px;
+}
+nav ul{
+  margin-right: 50px;
+}
+nav ul li{
+  display: inline-block;
+  
+  list-style: none;
+  margin: 0 5px;
+  /* padding: 5px 20px; */
+  text-align: center;
+  box-sizing: border-box;
+  transition: .3s;
+}
+nav ul li:hover {
+  border-top: 1px solid rgba(0, 0, 0, .2 );
+  border-bottom: 1px solid rgba(0, 0, 0, .2 );
+  border-radius: 8px;
+  
+  
+}
+nav ul li a{
+ padding: 20px 20px;
+  text-decoration: none;
+  transition: .4s;
+  border-radius: 8px;
+}
+nav ul li a:hover{
+  color: #fff;
+}
+
+.titik img{
+  position: absolute;
+  width: 112px;
+  height: 100px;
+  margin-top: 122px;
+  margin-left: 133px;
+}
+
+.header{
+  background-color: aqua;
+}
+.foto {
+  display: flex;
+  justify-content: center;
+}
+.foto img {
+  width: 201px;
+  height: 201px;
+  display: flex;
+  border-radius: 200px;
+  margin-top: 63px;
+}
+
+.tulisan h3 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 12px;
+  box-sizing: border-box;
+  text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+}
+
+.pa {
+width: 248px;
+margin: 0 auto;
+padding-bottom: 80px;
+box-sizing: border-box;
+
+  
+}
+.pa p{
+  font-size: 24px;
+  text-align: center;
+}
+
+.line{
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  }
+
+  @media (max-width: 700px) {
+    nav ul{
+      margin-right: 0px;
+  }
+  .titik img{
+  margin-left: 4%;
+  width: 100px;
+}
+}
+
+  /* ---section-- */
+
+  .text {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .text h1{
+    font-size: 32px;
+    text-align: center;
+    margin: 20px
+  }
+  .text p{
+    text-align: center;
+  }
+
+
+  .card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+  }
+  .card-text{
+    width: 445px;
+    height: 200px;
+    
+    padding-left: 40px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, .4);
+    transition: .4s;
+  }
+  .card-text h2{
+    text-align: center;
+  }
+
+  .card-text:hover{
+    box-shadow: 0 0px 20px 0px rgba(0, 0, 0, .5) ;
+  }
+
+  .titik2 img{
+    position:absolute;
+    width: 120px;
+    height: 130px;
+    margin-left: 80%;
+    margin-top: -100px;
+  }
+
+  @media (max-width: 700px) {
+    .text h1{
+      font-size: 30px;
+     
+    }
+    .text p{
+      text-align: center;
+      font-size: 15px;
+    }
+    .text {
+      width: 400px;
+      margin: 0 auto;
+    }
+    .card{
+      align-items: center;
+      flex-direction: column;
+      transform: scale(0.9);
+
+     
+  }
+  .titik2 img{
+    display: none;
+  }
+
+
+}
+
+/* ---footer */
+
+.bungkus{
+  background-color: aqua;
+  text-align: center;
+  padding: 10px 0;
+}
+span{
+  color:#fff
+}
